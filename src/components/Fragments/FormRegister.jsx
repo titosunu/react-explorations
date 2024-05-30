@@ -5,22 +5,16 @@ const FormRegister = () => {
   return (
     <form action="">
       <InputForm
+        name="fullname"
+        label="Full Name"
+        type="text"
+        placeholder="Full Name"
+      />
+      <InputForm
         name="email"
         label="Email"
         type="email"
         placeholder="example@gmail.com"
-      />
-      <InputForm
-        name="firstname"
-        label="First Name"
-        type="text"
-        placeholder="First Name"
-      />
-      <InputForm
-        name="lastname"
-        label="Last Name"
-        type="text"
-        placeholder="Last Name"
       />
       <InputForm
         name="password"
