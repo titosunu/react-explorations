@@ -28,7 +28,7 @@ const FormRegister = () => {
         type="password"
         placeholder="********"
       />
-      <Button variant="bg-slate-900">Sign up</Button>
+      <Button classname="bg-slate-900">Sign up</Button>
     </form>
   );
 };

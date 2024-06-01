@@ -16,7 +16,7 @@ const FormLogin = () => {
         type="password"
         placeholder="********"
       />
-      <Button variant="bg-slate-900">Sign In</Button>
+      <Button classname="bg-slate-900">Sign In</Button>
     </form>
   );
 };
